@@ -1,0 +1,2 @@
+rootProject.name='KinopoiskApp2'
+include ':app'
