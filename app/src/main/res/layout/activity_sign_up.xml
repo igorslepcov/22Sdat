@@ -13,13 +13,13 @@
         android:scaleType="centerCrop"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/background" />
+        app:srcCompat="@drawable/pchel" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/rectangle_without_angle"
+        android:background="@color/colorAccent"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -31,20 +31,20 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="30dp"
-            android:text="Sign Up"
-            android:textColor="#000000"
             android:gravity="center"
+            android:text="Регистрация"
+            android:textColor="#000000"
             android:textSize="30sp" />
 
         <EditText
             android:id="@+id/etEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
             android:ems="10"
             android:hint="Email"
-            android:layout_marginBottom="10dp"
-            android:textColor="#000"
-            android:inputType="textPersonName" />
+            android:inputType="textPersonName"
+            android:textColor="#000" />
 
         <EditText
             android:id="@+id/etFirstName"
@@ -80,17 +80,17 @@
             android:id="@+id/tvGoToSignIn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:textColor="#000"
             android:layout_marginBottom="10dp"
-            android:text="I have an account" />
+            android:gravity="center"
+            android:text="I have an account"
+            android:textColor="#000" />
 
         <Button
             android:id="@+id/btnSignUp"
-            android:textSize="18sp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Sign Up" />
+            android:text="Sign Up"
+            android:textSize="18sp" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
