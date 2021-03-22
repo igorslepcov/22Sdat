@@ -12,11 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".CardOfMovie"></activity>
-        <activity android:name=".LoadingScreen" />
+
+        <activity android:name=".CardOfMovie" />
+        <activity android:name=".MainActivityOne" />
         <activity android:name=".SignUp" />
+        <activity android:name=".MainActivity" />
         <activity android:name=".SignIn" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".LoadingScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

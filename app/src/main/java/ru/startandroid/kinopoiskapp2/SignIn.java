@@ -59,11 +59,11 @@ public class SignIn extends AppCompatActivity {
             public void onResponse(Call<LoginResponse> call, Response<LoginResponse> response) {
                 if(response.isSuccessful()){
                     LoginResponse loginResponse = response.body();
-                    startActivity(new Intent(SignIn.this, MainActivity.class));
+                    startActivity(new Intent(SignIn.this, MainActivityOne.class));
                     finish();
                 }
                 else{
-                    Toast.makeText(SignIn.this, "Возникла ощибка, повторите позже...", Toast.LENGTH_LONG).show();
+                    Toast.makeText(SignIn.this, "Возникла ошибка, повторите позже...", Toast.LENGTH_LONG).show();
                 }
             }
 
